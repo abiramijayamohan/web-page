@@ -68,7 +68,7 @@ table, th, td {
 </body>
 
 <body>
-<p><b><del>Kindly</del> Mark the Class</b></p>
+<p><b>kindly mark the Class</b></p>
 <input type="checkbox" id="1class" name="class">
 <label for="1class"> 1st class</label><br>
 <input type="checkbox" id="2class" name="class">
