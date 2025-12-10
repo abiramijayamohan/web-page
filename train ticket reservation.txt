@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<form>
+<html>
+<body>
+
+<h1 style="text-align: center;">RAILWAY TICKET RESERVATION </h1>
+<img src="train image.jpg" width="130" height="130">
+<h3><b> Fill the required details</b> </h3>
+</body>
+
+<body>
+<label for="fname">Name of ticket booking person</label><br>
+<input type="text" id="fname" name="fname"Autofocus><br>
+<label for="mobile no" >Mobile no</label> <br>
+<input type="text" id="mobile no" name="mobile no"><br>
+<label for="e-mail" >E-mail address</label><br>
+<input type="text" id="e-mail" name="e-mail"><br>
+</body>
+
+<style>
+table, th, td {
+ border:1px solid black;
+}
+</style>
+<table>
+<table style="width:80%">
+<p> <b>Fill the additional personal details</b></p>
+<tr>
+<th> S.no</th>
+<th> Name of passengrs</th>
+<th> Mobile no</th>
+<th> class</th>
+</tr>
+<tr>
+<td> 1</td>
+<td> SHALINI F </td>
+<td> 9845238753 </td>
+<td> 1st class</td>
+</tr>
+<tr>
+<td> 2 </td>
+<td> SHEELA T </td>
+<td> 8745093256</td>
+<td> 1st calss</td>
+</tr>
+</table><br>
+
+
+
+<body>
+<p><b> Destination</b> </p>
+<label for="from" >From statoin: </label><br>
+<input type="text" id="from" name="station" placeholder="enter station"><br>
+<label for="to" >To station: </label><br>
+<input type="text" id="to" name="station" ><br>
+<label for="ddate"> Departure date: </label><br>
+<input type="text" id="ddate" name="station"><br>
+</body>
+
+<body>
+<p><b> Choose the <mark>gender</mark></b></p>
+<input type="radio" id="male" name="gender"checked>                                                             >
+<label for="male"> Male </label><br>
+<input type="radio" id="female" name="gender"readonly>
+<label for="female">Female</label><br>
+<input type="radio" id="others" name="gender">
+<label for="others" >Others</label><br>
+</body>
+
+<body>
+<p><b><del>Kindly</del> Mark the Class</b></p>
+<input type="checkbox" id="1class" name="class">
+<label for="1class"> 1st class</label><br>
+<input type="checkbox" id="2class" name="class">
+<label for="3class"> 2 nd class</label><br>
+<input type="checkbox" id="3class" name="class">
+<label for="3class"> 3 rd class</label><br><br>
+</body>
+
+<body>
+<p><i> For facilities and additional reference visit the link given below</i></p>
+<a href="https://www.railway bookings.com">visit railwaybookings.com</a>
+</body><br><br>
+
+<input type="button" value="Submit">
+</body>
+</form>
+<html>
